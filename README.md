@@ -1,5 +1,7 @@
 # README
 
+Following: https://devcenter.heroku.com/articles/getting-started-with-rails6#local-setup
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
