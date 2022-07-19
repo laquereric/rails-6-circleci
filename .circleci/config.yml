@@ -1,8 +1,11 @@
+# CircleCI configuration file
 version: 2.1
 
 jobs:
-  deploy-job:
+  build:
+    docker:
+     - image: cimg/base:2022.05
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "SO:ME:FIN:G:ER:PR:IN:T"
+        - run: echo "Say hello to YAML!"
+version: 2.1
+
